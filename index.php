@@ -39,6 +39,8 @@ function generateRandomPassword($password_length) {
             <input type="submit" value="Invia">
         </form>
 
+        <p><?= $password ?></p>
+
     </div>
     
     
