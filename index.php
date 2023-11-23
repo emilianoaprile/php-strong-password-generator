@@ -1,23 +1,5 @@
 <?php
-
-$password_length = intval($_GET['user_password']);
-var_dump($password_length);
-
-// function
-function generateRandomPassword($password_length) {
-    //Inizializzo una random password
-    $password = '';
-    
-    for ($i = 0; $i < $password_length; $i++) {
-        $password .= chr(rand(32, 126));
-
-    }
-    return $password;
-  };
-  $password = generateRandomPassword($password_length);
-  var_dump($password);
-
-
+include 'functions.php'
 ?>
 
 
